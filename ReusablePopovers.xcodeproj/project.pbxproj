@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		641EFDE41FD6BECD00D7BC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFDE31FD6BECD00D7BC86 /* AppDelegate.swift */; };
+		641EFDE61FD6BECD00D7BC86 /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFDE51FD6BECD00D7BC86 /* PopoverViewController.swift */; };
+		641EFDE91FD6BECD00D7BC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641EFDE71FD6BECD00D7BC86 /* Main.storyboard */; };
+		641EFDEB1FD6BECD00D7BC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 641EFDEA1FD6BECD00D7BC86 /* Assets.xcassets */; };
+		641EFDEE1FD6BECD00D7BC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641EFDEC1FD6BECD00D7BC86 /* LaunchScreen.storyboard */; };
+		641EFDFB1FD6BF6900D7BC86 /* Popover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 641EFDFA1FD6BF6900D7BC86 /* Popover.storyboard */; };
+		641EFDFD1FD6C6F600D7BC86 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFDFC1FD6C6F600D7BC86 /* DateViewController.swift */; };
+		641EFDFF1FD6C70000D7BC86 /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFDFE1FD6C70000D7BC86 /* TimeViewController.swift */; };
+		641EFE011FD6C8C200D7BC86 /* UserfulExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641EFE001FD6C8C200D7BC86 /* UserfulExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		641EFDE01FD6BECD00D7BC86 /* ReusablePopovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusablePopovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		641EFDE31FD6BECD00D7BC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		641EFDE51FD6BECD00D7BC86 /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		641EFDE81FD6BECD00D7BC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		641EFDEA1FD6BECD00D7BC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		641EFDED1FD6BECD00D7BC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		641EFDEF1FD6BECD00D7BC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		641EFDFA1FD6BF6900D7BC86 /* Popover.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Popover.storyboard; sourceTree = "<group>"; };
+		641EFDFC1FD6C6F600D7BC86 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		641EFDFE1FD6C70000D7BC86 /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		641EFE001FD6C8C200D7BC86 /* UserfulExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserfulExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		641EFDDD1FD6BECD00D7BC86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		641EFDD71FD6BECD00D7BC86 = {
+			isa = PBXGroup;
+			children = (
+				641EFDE21FD6BECD00D7BC86 /* ReusablePopovers */,
+				641EFDE11FD6BECD00D7BC86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		641EFDE11FD6BECD00D7BC86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDE01FD6BECD00D7BC86 /* ReusablePopovers.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		641EFDE21FD6BECD00D7BC86 /* ReusablePopovers */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDF81FD6BF2F00D7BC86 /* Utitiles */,
+				641EFDF51FD6BEDD00D7BC86 /* AppDelegate */,
+				641EFDF71FD6BF2200D7BC86 /* ViewControllers */,
+				641EFDF61FD6BF1100D7BC86 /* Storyboards */,
+				641EFDEA1FD6BECD00D7BC86 /* Assets.xcassets */,
+				641EFDEF1FD6BECD00D7BC86 /* Info.plist */,
+			);
+			path = ReusablePopovers;
+			sourceTree = "<group>";
+		};
+		641EFDF51FD6BEDD00D7BC86 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDE31FD6BECD00D7BC86 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		641EFDF61FD6BF1100D7BC86 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDE71FD6BECD00D7BC86 /* Main.storyboard */,
+				641EFDEC1FD6BECD00D7BC86 /* LaunchScreen.storyboard */,
+				641EFDFA1FD6BF6900D7BC86 /* Popover.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		641EFDF71FD6BF2200D7BC86 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDE51FD6BECD00D7BC86 /* PopoverViewController.swift */,
+				641EFDFC1FD6C6F600D7BC86 /* DateViewController.swift */,
+				641EFDFE1FD6C70000D7BC86 /* TimeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		641EFDF81FD6BF2F00D7BC86 /* Utitiles */ = {
+			isa = PBXGroup;
+			children = (
+				641EFDF91FD6BF3800D7BC86 /* Extensions */,
+			);
+			path = Utitiles;
+			sourceTree = "<group>";
+		};
+		641EFDF91FD6BF3800D7BC86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				641EFE001FD6C8C200D7BC86 /* UserfulExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		641EFDDF1FD6BECD00D7BC86 /* ReusablePopovers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 641EFDF21FD6BECD00D7BC86 /* Build configuration list for PBXNativeTarget "ReusablePopovers" */;
+			buildPhases = (
+				641EFDDC1FD6BECD00D7BC86 /* Sources */,
+				641EFDDD1FD6BECD00D7BC86 /* Frameworks */,
+				641EFDDE1FD6BECD00D7BC86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReusablePopovers;
+			productName = ReusablePopovers;
+			productReference = 641EFDE01FD6BECD00D7BC86 /* ReusablePopovers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641EFDD81FD6BECD00D7BC86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ghouse Basha Shaik";
+				TargetAttributes = {
+					641EFDDF1FD6BECD00D7BC86 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 641EFDDB1FD6BECD00D7BC86 /* Build configuration list for PBXProject "ReusablePopovers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 641EFDD71FD6BECD00D7BC86;
+			productRefGroup = 641EFDE11FD6BECD00D7BC86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				641EFDDF1FD6BECD00D7BC86 /* ReusablePopovers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		641EFDDE1FD6BECD00D7BC86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641EFDFB1FD6BF6900D7BC86 /* Popover.storyboard in Resources */,
+				641EFDEE1FD6BECD00D7BC86 /* LaunchScreen.storyboard in Resources */,
+				641EFDEB1FD6BECD00D7BC86 /* Assets.xcassets in Resources */,
+				641EFDE91FD6BECD00D7BC86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		641EFDDC1FD6BECD00D7BC86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641EFDE61FD6BECD00D7BC86 /* PopoverViewController.swift in Sources */,
+				641EFE011FD6C8C200D7BC86 /* UserfulExtensions.swift in Sources */,
+				641EFDFF1FD6C70000D7BC86 /* TimeViewController.swift in Sources */,
+				641EFDFD1FD6C6F600D7BC86 /* DateViewController.swift in Sources */,
+				641EFDE41FD6BECD00D7BC86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		641EFDE71FD6BECD00D7BC86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641EFDE81FD6BECD00D7BC86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		641EFDEC1FD6BECD00D7BC86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				641EFDED1FD6BECD00D7BC86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		641EFDF01FD6BECD00D7BC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		641EFDF11FD6BECD00D7BC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		641EFDF31FD6BECD00D7BC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReusablePopovers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mojojo.cc.ReusablePopovers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		641EFDF41FD6BECD00D7BC86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ReusablePopovers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mojojo.cc.ReusablePopovers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		641EFDDB1FD6BECD00D7BC86 /* Build configuration list for PBXProject "ReusablePopovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641EFDF01FD6BECD00D7BC86 /* Debug */,
+				641EFDF11FD6BECD00D7BC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		641EFDF21FD6BECD00D7BC86 /* Build configuration list for PBXNativeTarget "ReusablePopovers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				641EFDF31FD6BECD00D7BC86 /* Debug */,
+				641EFDF41FD6BECD00D7BC86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641EFDD81FD6BECD00D7BC86 /* Project object */;
+}
